@@ -14,7 +14,7 @@ Add a category
 docker pull davida01/passwordvault:latest
 ```
 
-2. Run the docker image
+2. Run the Docker image
 
 ```bash
 sudo docker run -d \
