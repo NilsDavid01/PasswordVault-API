@@ -14,12 +14,12 @@ Add a category
 ## How to run the API using Docker
 1. Download the Docker image
  
-´´´bash
+```bash
 docker pull davida01/passwordvault:latest
-´´´
+```
 
 2. Run the docker image
-´´´bash
+```bash
 sudo docker run -d \
   -p 8080:8080 \
   --name vault-api \
@@ -27,6 +27,6 @@ sudo docker run -d \
   -e ASPNETCORE_ENVIRONMENT=Development \
   -e VAULT_MASTER_KEY="your-super-secret-32-chars-here!" \
   davida01/passwordvault:latest
-´´´
+```
 3. Access the API Swagger UI at: http://localhost:8080/swagger/index.html 
 
