@@ -6,12 +6,12 @@ Add a category
 <br/><br/>
 
 ## How to run the API using Docker
-1. docker pull davida01/passwordvault:latest
+1. How to run the API using Docker
 
+```bash
+docker pull davida01/passwordvault:latest
+```
 
-<br/><br/>
-
-## How to run the API using Docker
 1. Download the Docker image
  
 ```bash
@@ -19,6 +19,7 @@ docker pull davida01/passwordvault:latest
 ```
 
 2. Run the docker image
+
 ```bash
 sudo docker run -d \
   -p 8080:8080 \
