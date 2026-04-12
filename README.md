@@ -26,5 +26,5 @@ sudo docker run -d \
   -e VAULT_MASTER_KEY="your-super-secret-32-chars-here!" \
   davida01/passwordvault:latest
 ```
-3. Access the API Swagger UI at: http://localhost:8080/swagger/index.html 
+4. Access the API Swagger UI at: http://localhost:8080/swagger/index.html 
 
