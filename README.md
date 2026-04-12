@@ -10,8 +10,12 @@ An API with Swagger UI that stores passwords in SQLite DB securely using AES-256
 ```bash
 docker pull davida01/passwordvault:latest
 ```
+2. Create a database on the host machine. 
+```bash 
+touch ~/vault.db
+```
 
-2. Run the Docker image
+3. Run the Docker image
 
 ```bash
 sudo docker run -d \
