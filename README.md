@@ -1,9 +1,6 @@
 # PasswordVault-API
 An API with Swagger UI that stores passwords in SQLite DB securely using AES-256.
 
-Add a category
-
-<br/><br/>
 
 ## How to run the API using Docker
 
